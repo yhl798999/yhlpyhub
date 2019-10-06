@@ -1,0 +1,19 @@
+show database;
+
+create database gxdc;
+
+use gxdc;
+
+create table dcset(
+id int(8),
+orderid int(8),
+userid int(8),
+bikeid int(8),
+starttime datetime,
+startlat float,
+startlon float,
+endlat float,
+endlon float
+);
+
+select count(*) from dcset;
